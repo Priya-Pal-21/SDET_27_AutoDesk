@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="FullRegression">
+  <test thread-count="2" parallel="tests" name="TestRunner-1">
+    <classes>
+      <class name="com.crm.AutoDesk.orgTest.CreateOrganizationTest"/>
+      <class name="com.crm.AutoDesk.Contact.Test.CreateContactWithOrganization"/>    
+      <class name="com.crm.AutoDesk.Contact.Test.CreateContactTest"/> 
+      <class name="com.crm.AutoDesk.orgTest.CreateOrgWithIndustry_TypeTest"/>
+      <class name="com.crm.AutoDesk.product.Test.Create_ProductWith_MarketingGroup"/>
+      <class name="com.crm.AutoDesk.product.Test.CreateProductWithQuickCreate"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

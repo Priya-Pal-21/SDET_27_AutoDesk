@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[clickOnContactImg]]>
+    </line>
+    <line>
+      <![CDATA[clickOnContactImg]]>
+    </line>
+    <line>
+      <![CDATA[createNewContacts]]>
+    </line>
+    <line>
+      <![CDATA[ContactsInfo]]>
+    </line>
+    <line>
+      <![CDATA[createNewContacts]]>
+    </line>
+    <line>
+      <![CDATA[ContactsInfo]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2021-12-28T14:27:48 IST" name="Suite" finished-at="2021-12-28T14:28:21 IST" duration-ms="32933">
+    <groups>
+      <group name="smokeSuite">
+        <method signature="CreateContactTest.createContactTest()[pri:0, instance:com.crm.AutoDesk.Contact.Test.CreateContactTest@15eb5ee5]" name="createContactTest" class="com.crm.AutoDesk.Contact.Test.CreateContactTest"/>
+        <method signature="CreateContactTest.createContactTest()[pri:0, instance:com.crm.AutoDesk.Contact.Test.CreateContactTest@15ff3e9e]" name="createContactTest" class="com.crm.AutoDesk.Contact.Test.CreateContactTest"/>
+      </group> <!-- smokeSuite -->
+    </groups>
+    <test started-at="2021-12-28T14:27:48 IST" name="TestRunner-chrome" finished-at="2021-12-28T14:28:17 IST" duration-ms="29041">
+      <class name="com.crm.AutoDesk.Contact.Test.CreateContactTest">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:com.crm.AutoDesk.Contact.Test.CreateContactTest@15eb5ee5]" started-at="2021-12-28T14:27:48 IST" name="launchBrowser" finished-at="2021-12-28T14:27:54 IST" duration-ms="5399" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="loginToApp()[pri:0, instance:com.crm.AutoDesk.Contact.Test.CreateContactTest@15eb5ee5]" started-at="2021-12-28T14:27:54 IST" name="loginToApp" finished-at="2021-12-28T14:28:01 IST" duration-ms="6886" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApp -->
+        <test-method signature="createContactTest()[pri:0, instance:com.crm.AutoDesk.Contact.Test.CreateContactTest@15eb5ee5]" started-at="2021-12-28T14:28:01 IST" name="createContactTest" finished-at="2021-12-28T14:28:16 IST" duration-ms="14985" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[clickOnContactImg]]>
+            </line>
+            <line>
+              <![CDATA[createNewContacts]]>
+            </line>
+            <line>
+              <![CDATA[ContactsInfo]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- createContactTest -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:com.crm.AutoDesk.Contact.Test.CreateContactTest@15eb5ee5]" started-at="2021-12-28T14:28:16 IST" name="logout" finished-at="2021-12-28T14:28:17 IST" duration-ms="1490" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.crm.AutoDesk.Contact.Test.CreateContactTest@15eb5ee5]" started-at="2021-12-28T14:28:17 IST" name="closeBrowser" finished-at="2021-12-28T14:28:17 IST" duration-ms="220" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.crm.AutoDesk.Contact.Test.CreateContactTest -->
+    </test> <!-- TestRunner-chrome -->
+    <test started-at="2021-12-28T14:27:48 IST" name="TestRunner-firefox" finished-at="2021-12-28T14:28:21 IST" duration-ms="32933">
+      <class name="com.crm.AutoDesk.Contact.Test.CreateContactTest">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:com.crm.AutoDesk.Contact.Test.CreateContactTest@15ff3e9e]" started-at="2021-12-28T14:27:48 IST" name="launchBrowser" finished-at="2021-12-28T14:28:02 IST" duration-ms="13795" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="loginToApp()[pri:0, instance:com.crm.AutoDesk.Contact.Test.CreateContactTest@15ff3e9e]" started-at="2021-12-28T14:28:02 IST" name="loginToApp" finished-at="2021-12-28T14:28:07 IST" duration-ms="4613" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApp -->
+        <test-method signature="createContactTest()[pri:0, instance:com.crm.AutoDesk.Contact.Test.CreateContactTest@15ff3e9e]" started-at="2021-12-28T14:28:07 IST" name="createContactTest" finished-at="2021-12-28T14:28:19 IST" duration-ms="11861" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[clickOnContactImg]]>
+            </line>
+            <line>
+              <![CDATA[createNewContacts]]>
+            </line>
+            <line>
+              <![CDATA[ContactsInfo]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- createContactTest -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:com.crm.AutoDesk.Contact.Test.CreateContactTest@15ff3e9e]" started-at="2021-12-28T14:28:19 IST" name="logout" finished-at="2021-12-28T14:28:20 IST" duration-ms="1386" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.crm.AutoDesk.Contact.Test.CreateContactTest@15ff3e9e]" started-at="2021-12-28T14:28:20 IST" name="closeBrowser" finished-at="2021-12-28T14:28:21 IST" duration-ms="1245" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.crm.AutoDesk.Contact.Test.CreateContactTest -->
+    </test> <!-- TestRunner-firefox -->
+  </suite> <!-- Suite -->
+</testng-results>
